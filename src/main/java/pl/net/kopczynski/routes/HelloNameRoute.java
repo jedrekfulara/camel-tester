@@ -6,9 +6,9 @@ import org.springframework.stereotype.Component;
 import pl.net.kopczynski.processors.HeadersFilterProcessor;
 
 @Component
-public class HelloName extends BaseRouteBuilder{
+public class HelloNameRoute extends BaseRouteBuilder {
 
-    public HelloName(final HeadersFilterProcessor headersFilterProcessor) {
+    public HelloNameRoute(final HeadersFilterProcessor headersFilterProcessor) {
         super(headersFilterProcessor);
     }
 
